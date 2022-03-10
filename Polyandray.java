@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.io.IOException;
 import java.io.File;
 public class Polyandray{
+	
+	//TODO: Update the usage notification and add a '--h' help command
 
 	static Scanner input;
 	static ArrayList<LinkedList<Person>> hash;
@@ -26,13 +28,15 @@ public class Polyandray{
 		try{
 			input = new Scanner(new File(args[0]));
 			for(int i = args.length-1; i > 0; i--){
-				if(args[i].equals("--triex"))
+				if(args[i].equals("--f")
+				else if(args[i].equals("--triex"))
 					triex = true;
-				else if(args[i].equals("--f"))
+				else if(args[i].equals("--fem"))
 					males = false;
 			}
 		} catch(Exception e){
 			System.err.printf("Error:\nUse Case =>java Polyandray <file>\n");
+
 			System.exit(0);
 		} 
 		//list will hold all lines read in, and each string in the list will be read to determine ranks.
