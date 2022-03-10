@@ -1,0 +1,10 @@
+Cate 1:  Carl Dave Frank Eric Abe Bob
+Bette 2: Eric Bob Abe Carl Dave Frank
+Anna 3:  Abe Bob Carl Dave Eric Frank
+
+Abe:   Anna Bette Cate
+Frank: Bette Anna Cate
+Carl:  Bette Cate Anna
+Dave:  Anna Bette Cate
+Eric:  Cate Anna Bette
+Bob:   Bette Anna Cate
